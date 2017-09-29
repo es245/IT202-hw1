@@ -22,12 +22,29 @@ html, body{
     text-shadow: 1px 1px 15px rgba(0,0,0,0.2);
 }
 
+.block-center{
+    display: block;
+    margin: 0 auto;
+}
+
+.about-header{
+    font-family: 'Roboto Condensed', helvetica, arial, sans-serif;
+}
+
+.img-round{
+    border-radius: 50%;
+}
+
 .padding-sm{
     padding: 10px;
 }
 
+.margin-sm{
+    margin: 10px;
+}
+
 .padding-top{
-    padding-top: 80px;
+    padding: 80px 0 20px;
 }
 
 .highlight{
@@ -62,9 +79,12 @@ html, body{
 /* begin button colors*/
 
 .red{
-    background: #F35D76;
+    background: #ED6A5A;
 }
 
+.blue{
+    background: #7CAFD6;
+}
 /* end button colors*/
 
 .section-header{
@@ -84,5 +104,73 @@ html, body{
   max-height: auto;
 }
 
+.about-img{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
 
+.about-content{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
 
+#history{
+    color: #fff;
+}
+
+#events{
+    background: #9BC53D;
+}
+
+.card{
+    border: none;
+    border-radius: 0;
+}
+
+.card-img{
+    height: 200px;
+    background-size: cover;
+}
+
+.card-header{
+    font-family: 'Roboto condensed', Helvetica, arial, sans-serif;
+    font-size: 21px;
+    text-align: center;
+
+}
+
+.card-par{
+    padding: 15px;
+}
+
+.card-button{
+    padding: 10px;
+    background: #73A30D;
+    color: #fff;
+    text-align: center;
+}
+
+#card1{
+    background: url('https://www.karti.com.mk/content/GreenFestival.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#card2{
+    background: url('http://www.modenatravel.com/wp-content/uploads/2015/11/Disco-22.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#card3{
+    background: url('https://i.ytimg.com/vi/MSXUlNTKivI/maxresdefault.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#card4{
+    background: url('http://iffom.com/wp-content/uploads/2016/10/IMG_4718-1024x683.jpg?x28426') center center no-repeat;
+    background-size: cover;
+}

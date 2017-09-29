@@ -83,7 +83,7 @@ html, body{
 }
 
 .blue{
-    background: #7CAFD6;
+    background: #5A88AA;
 }
 /* end button colors*/
 
@@ -177,4 +177,9 @@ html, body{
 
 #contact{
     padding-bottom: 70px;
+    color: #fff;
+}
+
+footer{
+    padding: 25px 0;
 }

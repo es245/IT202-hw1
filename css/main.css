@@ -174,3 +174,7 @@ html, body{
     background: url('http://iffom.com/wp-content/uploads/2016/10/IMG_4718-1024x683.jpg?x28426') center center no-repeat;
     background-size: cover;
 }
+
+#contact{
+    padding-bottom: 70px;
+}

@@ -1,0 +1,40 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #7289da;
+    font-family: 'Raleway', Helvetica, arial, sans-serif;
+}
+
+#main{
+    height: 100%;
+}
+
+#center-block{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+#center-block h1{
+    padding: 10px 10%;
+}
+
+.link{
+    display: block;
+    padding: 25px;
+    text-decoration: none;
+    color: #fff;
+    max-width: 200px;
+    margin: 10px auto;
+    font-size: 20px;
+}
+
+.orange{
+    background: #ffa75c;
+}
+
+.green{
+    background: #5ee37b;
+}
